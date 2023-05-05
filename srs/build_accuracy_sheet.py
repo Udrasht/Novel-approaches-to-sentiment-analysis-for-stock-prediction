@@ -15,7 +15,6 @@ def create_excel_file():
     sheet1 = wb.add_sheet('Training Accuracy')
     sheet2 = wb.add_sheet('Testing Accuracy')
     
-    #for i in range( 1, len(algorithms)+1):
     for algos, val in algorithms.items():
         sheet1.write( val, 0, algos )
         sheet2.write( val, 0, algos )
@@ -23,11 +22,7 @@ def create_excel_file():
     for ticker, val in all_tickers.items():
         sheet1.write( 0, val, ticker )
         sheet2.write( 0, val, ticker )
-        
-    #for i in range( 1, len(all_tickers)+1):
-    #    sheet1.write(0, i, all_tickers[i-1] )
-    #    sheet2.write(0, i, all_tickers[i-1] )
-     
+      
     wb.save(file_name)
 
 
