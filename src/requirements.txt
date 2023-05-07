@@ -1,0 +1,23 @@
+install python latest version 
+
+pip install keras
+pip install tensorflow
+pip install pandas
+pip install numpy
+pip install matplotlib
+pip install tensorflow-hub
+pip install nltk
+pip install https://tfhub.dev/google/universal-sentence-encoder/4
+pip install textblob
+pip install -U scikit-learn
+pip install requests
+pip install bs4
+pip install xlwt
+pip install xlrd
+pip install xlutils
+pip install pygooglenews
+pip install newspaper
+pip install yahoofinancials
+pip install ta
+pip install pandas_ta
+
